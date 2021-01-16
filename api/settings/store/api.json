@@ -1,0 +1,8 @@
+{
+    "debug": true,
+    "title": "Acme API",
+    "description": "Acme example API",
+    "version": "0.0.1",
+    "openapi_url": "/openapi.json",
+    "servers": []
+}
