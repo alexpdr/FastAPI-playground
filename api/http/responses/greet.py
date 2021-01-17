@@ -1,5 +1,5 @@
 """
-File contains greet model
+File contains greet response model
 """
 from pydantic import BaseModel
 
