@@ -1,1 +1,1 @@
-"""Module contains http models"""
+"""Module contains http responses"""

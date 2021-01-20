@@ -1,0 +1,13 @@
+{
+    "cache": {
+        "timeout": 60,
+        "config": {
+            "stores": {
+                "file":,
+                "driver": "file",
+                "path": "api/data/cache/",
+                "serializer": "json"
+            }
+        }
+    }
+}

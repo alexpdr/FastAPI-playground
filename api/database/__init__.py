@@ -1,1 +1,1 @@
-"""Module contains database functionality for the API"""
+"""Module contains database submodules"""

@@ -5,6 +5,7 @@ import logging
 from fastapi import FastAPI, Response
 from fastapi.responses import RedirectResponse
 from api.http.routers import ROUTERS
+from api.http.middleware import MIDDLEWARE
 from api.settings import SETTINGS
 
 # Setting up application logger
@@ -16,6 +17,8 @@ app = FastAPI(**SETTINGS['API'])
 # Add routes to our application
 [app.include_router(router) for router in ROUTERS]
 
+# Adding middleware
+[app.add_middleware(middleware) for middleware in MIDDLEWARE]
 
 # Root/Index response
 @app.get(
